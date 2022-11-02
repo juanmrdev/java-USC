@@ -7,6 +7,6 @@ public record Student(
 ) {
     @Override
     public String toString(){
-        return "ID: "+ code +" Name: "+ name +" Score: "+ score;
+        return "ID: "+ code +" Name: "+ name +" Score: "+ score +"\n";
     }
 }
